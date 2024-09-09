@@ -1,0 +1,35 @@
+body {
+    background-color: #8f9f6f;
+    color: rgb(250, 248, 244);
+    font-family: "Pirata One", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #4c5539;
+    color: white;
+    font-family: "Pirata One", system-ui;
+    
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
